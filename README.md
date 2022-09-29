@@ -5,7 +5,6 @@
 ## To get this project on your local machine 
  ```
  git clone https://github.com/tarek102/morse_message 
- 
  ```
 
 
