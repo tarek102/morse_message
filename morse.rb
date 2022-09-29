@@ -5,6 +5,9 @@ def decode(decode_char)
                 '...-' => 'V', '.--' => 'W', '-..-' => 'X', '-.--' => 'Y', '--..' => 'Z' }
   array = []
   words = decode_char.split('   ')
+  words.each do |i|
+    array.push(i.split.map { |letter| alphabets[letter] }.join)
+  end
   array.join(' ')
 end
 
